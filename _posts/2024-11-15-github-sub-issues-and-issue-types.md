@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Issues: Scripts for working with Sub-Issues and Issue Types'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-11-15 1:00:00 -0600
 description: A collection of scripts for working with sub-issues and issue types in GitHub Issues
 categories: [GitHub, Scripts]

@@ -1,6 +1,6 @@
 ---
 title: 'Migrate SVN to Git'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-01-04 23:00:00 -0600
 description: Migrate SVN to Git using either the import repository feature in GitHub or git-svn
 categories: [GitHub, Migrations]

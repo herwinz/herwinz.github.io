@@ -1,6 +1,6 @@
 ---
 title: 'Configure GitHub Dependabot to Keep Actions Up to Date'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-07-02 08:00:00 -0500
 description: Using Dependabot to keep Actions in GitHub Actions Workflows up to date, including how this works for custom private/internal actions within an organization
 categories: [GitHub, Dependabot]

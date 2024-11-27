@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Packages: Migrate NuGet Packages Between GitHub Instances'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-11-23 13:30:00 -0500
 description: Migrating NuGet packages stored in GitHub Packages from one instance to another
 categories: [GitHub, Packages]

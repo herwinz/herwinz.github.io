@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Actions: Building a Dynamic Matrix'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-03-26 16:00:00 -0500
 description: Building matrices dynamically in GitHub Actions
 categories: [GitHub, Actions]

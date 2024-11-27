@@ -1,6 +1,6 @@
 ---
 title: 'Tips for Handling Dependabot, CodeQL, and Secret Scanning Alerts'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-02-28 15:30:00 -0600
 description: My musings on handling security alerts in GitHub
 categories: [GitHub, Advanced Security]

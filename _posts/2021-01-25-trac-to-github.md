@@ -1,6 +1,6 @@
 ---
 title: 'So You Want to Migrate Trac Tickets to GitHub Issues'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-01-25 8:30:00 -0600
 categories: [GitHub, Migrations]
 tags: [GitHub, GitHub Issues, Migrations]

@@ -1,6 +1,6 @@
 ---
 title: 'How to use gh auth login CLI Programmatically in GitHub Actions'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-28 12:00:00 -0500
 description: Using the gh cli to programmatically authenticate in GitHub Actions
 categories: [GitHub, Actions]

@@ -1,6 +1,6 @@
 ---
 title: 'Azure DevOps: Migrate Work Items to New Organization / Project'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-09-29 20:35:00 -0500
 description: Migrating work items to a different project or organization in Azure DevOps isn't as easy it should be. There are various ways to do so, with various levels of complexity and various levels of fidelity (history, for example).
 categories: [Azure DevOps, Work Items]

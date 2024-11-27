@@ -1,6 +1,6 @@
 ---
 title: 'Programmatically Download Latest Release from GitHub Repo'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-02-15 11:30:00 -0600
 description: Programmatically download the latest release from a GitHub Repo without having to hardcode the version or use separate API calls
 categories: [GitHub, Scripts]

@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Apps: Configuring the Git Email for Commits'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-11-22 12:00:00 -0600
 description: A guide on how to set up the proper Git email address for commits made by your GitHub App to ensure proper commit attribution
 categories: [GitHub, Apps]

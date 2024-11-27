@@ -1,6 +1,6 @@
 ---
 title: 'Configure actions-runner-controller without cert-manager'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-06-28 16:00:00 -0500
 description: Configure actions-runner-controller without cert-manager so that you can use self-signed or self-managed certificates to scale your GitHub runners
 categories: [GitHub, Actions]

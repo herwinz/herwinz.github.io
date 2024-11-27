@@ -1,6 +1,6 @@
 ---
 title: 'Use Dependabot in GitHub with Azure Artifacts'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-10 8:00:00 -0600
 description: Using Dependabot to update your dependencies that are hosted in Azure Artifacts
 categories: [GitHub, Dependabot]

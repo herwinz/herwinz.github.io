@@ -1,6 +1,6 @@
 ---
 title: 'Powerlevel10k Zsh Theme in GitHub Codespaces'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-11-23 16:00:00 -0600
 description: How to use the Powerlevel10k Zsh theme in GitHub Codespaces
 categories: [GitHub, Codespaces]

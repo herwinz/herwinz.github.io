@@ -1,6 +1,6 @@
 ---
 title: 'How to Sign Commits for GitHub'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-06-21 15:00:00 -0500
 description: Signing commits locally to show up as verified commits in GitHub
 categories: [GitHub, Commits]

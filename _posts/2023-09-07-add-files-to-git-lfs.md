@@ -1,6 +1,6 @@
 ---
 title: 'Adding Files to Git LFS'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-09-07 16:00:00 -0500
 description: Tracking new files in Git LFS
 categories: [GitHub, Commits]

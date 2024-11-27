@@ -1,6 +1,6 @@
 ---
 title: 'GitHub: Block Pull Requests if a Vulnerable Dependency is Added'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-04-06 15:00:00 -0500
 description: Block Pull Requests in GitHub if you add a vulnerable dependency/package version
 categories: [GitHub, Advanced Security]

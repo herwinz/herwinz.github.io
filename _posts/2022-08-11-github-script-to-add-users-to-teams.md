@@ -1,6 +1,6 @@
 ---
 title: 'GitHub: Script to Mass Add Users to a Team'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-08-11 16:00:00 -0500
 description: Add users to a GitHub org team programmatically from a CSV file
 categories: [GitHub, Scripts]

@@ -1,6 +1,6 @@
 ---
 title: 'ApproveOps: GitHub IssueOps with Approvals'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-02-08 8:30:00 -0600
 description: Using GitHub Actions to build automation on top of Issues (IssueOps) with Approvals from someone in a designated GitHub team
 categories: [GitHub, Actions]

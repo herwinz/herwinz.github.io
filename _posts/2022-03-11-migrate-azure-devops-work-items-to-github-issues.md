@@ -1,6 +1,6 @@
 ---
 title: 'Migrate Azure DevOps Work Items to GitHub Issues'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-11 4:00:00 -0600
 description: A PowerShell script to migrate Azure DevOps Work Items to GitHub Issues
 categories: [GitHub, Migrations]

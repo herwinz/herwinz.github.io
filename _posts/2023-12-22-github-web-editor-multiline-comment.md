@@ -1,6 +1,6 @@
 ---
 title: 'Creating a Multiline Comment in the GitHub Web Editor'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-12-22 11:40:00 -0600
 description: Adding a multiline comment in the GitHub Web Editor; for example when editing a GitHub Actions workflow file
 categories: [GitHub, Commits]

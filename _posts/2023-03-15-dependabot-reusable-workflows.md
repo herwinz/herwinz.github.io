@@ -1,6 +1,6 @@
 ---
 title: 'Configuring Dependabot for Reusable Workflows in GitHub'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-03-15 6:30:00 -0500
 description: Configuring Dependabot to keep Reusable Workflows up to date in GitHub
 categories: [GitHub, Dependabot]

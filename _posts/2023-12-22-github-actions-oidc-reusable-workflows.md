@@ -1,6 +1,6 @@
 ---
 title: 'Using OIDC with Reusable Workflows to Securely Access Cloud Resources'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-12-22 11:30:00 -0600
 description: Using Reusable Workflows in GitHub Actions to standardize and security harden your deployment steps
 categories: [GitHub, Actions]

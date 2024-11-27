@@ -1,6 +1,6 @@
 ---
 title: 'Using the GitHub Checks API to Link Workflow Statuses in a PR'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-10-12 20:30:00 -0500
 description: Using the GitHub Checks API to report the status of another workflow back to the pull request for gating purposes
 categories: [GitHub, Actions]

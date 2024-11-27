@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Actions: Create a Docker Container Action Hosted in a Private Image Registry'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-05-20 20:30:00 -0500
 description: Create a Docker container action that is hosted in a private image registry
 categories: [GitHub, Actions]

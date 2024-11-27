@@ -1,6 +1,6 @@
 ---
 title: 'Authorize and Restore Azure Artifacts NuGet Packages in GitHub Actions'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-01-04 14:15:00 -0600
 description: Authenticate to Azure Artifacts from GitHub Actions for builds and code scanning workflows
 categories: [GitHub, Actions]

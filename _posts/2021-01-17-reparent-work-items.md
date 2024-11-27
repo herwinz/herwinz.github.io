@@ -1,6 +1,6 @@
 ---
 title: 'Azure DevOps: Bulk Reparent Work Items'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-01-17 16:30:00 -0600
 categories: [Azure DevOps, Work Items]
 tags: [Azure DevOps, Work Items, Scripts]

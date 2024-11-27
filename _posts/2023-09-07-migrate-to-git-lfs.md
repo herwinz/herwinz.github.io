@@ -1,6 +1,6 @@
 ---
 title: 'Migrating Large Files in Git to Git LFS'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-09-07 15:00:00 -0500
 description: How to migrate Git LFS artifacts from one repository to another
 categories: [GitHub, Migrations]

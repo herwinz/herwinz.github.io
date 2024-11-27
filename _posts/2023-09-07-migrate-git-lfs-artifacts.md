@@ -1,6 +1,6 @@
 ---
 title: 'Migrating Git Repos with LFS Artifacts'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-09-07 14:30:00 -0500
 description: How to migrate Git LFS artifacts from one repository to another
 categories: [GitHub, Migrations]

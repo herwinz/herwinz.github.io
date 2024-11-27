@@ -1,6 +1,6 @@
 ---
 title: 'GitHub: Script to Add dependabot.yml to a List of Repos'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-01-08 12:30:00 -0600
 description: Add the dependabot.yml file programmatically to a list of GitHub repositories
 categories: [GitHub, Scripts]

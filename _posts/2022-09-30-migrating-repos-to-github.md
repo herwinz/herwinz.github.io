@@ -1,6 +1,6 @@
 ---
 title: 'Migrating Repos to GitHub'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-09-30 12:00:00 -0500
 description: The different options available for migrating repos to GitHub or any other Git provider
 categories: [GitHub, Migrations]

@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Packages: Migrate Maven Packages Between GitHub Instances'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-09-25 14:30:00 -0500
 description: Migrating Maven packages stored in GitHub Packages from one instance to another
 categories: [GitHub, Packages]

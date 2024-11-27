@@ -1,6 +1,6 @@
 ---
 title: 'A Lap Around GitHub Advanced Security (30m Video)'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-08-03 21:00:00 -0500
 description: A video describing the features of GitHub Advanced Security (GHAS), features, and some tips and tricks for configuring and interpreting the results along the way.
 categories: [GitHub, Advanced Security]

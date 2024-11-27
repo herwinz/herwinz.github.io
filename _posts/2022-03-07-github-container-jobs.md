@@ -1,6 +1,6 @@
 ---
 title: 'Docker Container Jobs in GitHub Actions'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-07 13:30:00 -0600
 description: Getting started using a Docker Container to run your GitHub Actions Job, tips and tricks, troubleshooting, and caveats
 categories: [GitHub, Actions]

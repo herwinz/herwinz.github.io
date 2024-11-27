@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Organization Readme Badge Generator'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-08-14 3:30:00 -0500
 description: A GitHub action to create markdown badges for your GitHub organization's README.md file
 categories: [GitHub, Actions]

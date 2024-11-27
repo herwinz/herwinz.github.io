@@ -1,6 +1,6 @@
 ---
 title: 'Finding deprecated set-output and save-state commands in GitHub Actions'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-03-13 3:00:00 -0500
 description: A bash script to find usage of deprecated set-output and save-state commands as well as finding deprecated Node.js 12 actions in GitHub Actions workflows
 categories: [GitHub, Actions]

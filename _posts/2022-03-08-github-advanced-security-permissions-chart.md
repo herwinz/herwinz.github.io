@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Advanced Security Permissions Chart'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-08 12:00:00 -0600
 description: An access requirements/permissions comparison between various roles in GitHub Enterprise and GitHub Advanced Security, such as what users with Write access to the repository get vs. what requires elevated privileges
 categories: [GitHub, Advanced Security]

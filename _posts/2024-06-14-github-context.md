@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Actions: Working with the GitHub Context'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-06-14 10:30:00 -0500
 description: Take your Actions knowledge to the next level by mastering the GitHub context
 categories: [GitHub, Actions]

@@ -1,6 +1,6 @@
 ---
 title: 'GitHub: Block Pull Request if Code Scanning Alerts Are Found'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2020-12-16 20:00:00 -0600
 categories: [GitHub, Advanced Security]
 tags: [GitHub, GitHub Actions, Pull Requests, CodeQL, GitHub Advanced Security, Policy Enforcement, Branch Protection Rules]

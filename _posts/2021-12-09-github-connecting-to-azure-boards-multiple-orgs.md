@@ -1,6 +1,6 @@
 ---
 title: 'Connecting Azure Boards GitHub App to Multiple Azure DevOps Orgs/Projects'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-12-09 22:00:00 -0600
 description: Using the Azure Boards GitHub app to connect a single GitHub organization to multiple Azure DevOps organizations or projects for work item integration
 categories: [GitHub, Integrations]

@@ -1,6 +1,6 @@
 ---
 title: 'Azure DevOps: Pipeline Templates'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-08-12 22:00:00 -0600
 description: My personal Azure DevOps pipeline templates
 categories: [Azure DevOps, Pipelines]

@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Packages: Migrate npm Packages Between GitHub Instances'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-09-08 15:00:00 -0500
 description: Migrating npm packages stored in GitHub Packages from one instance to another
 categories: [GitHub, Packages]

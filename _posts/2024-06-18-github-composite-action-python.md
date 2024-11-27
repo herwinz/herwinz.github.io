@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Actions: Create a Composite Action in Python'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-06-18 19:30:00 -0500
 description: Create a composite action in Python 🐍 to reduce code duplication and improve maintainability
 categories: [GitHub, Actions]

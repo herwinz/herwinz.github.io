@@ -1,6 +1,6 @@
 ---
 title: 'GitHub Packages: Migrate Docker Containers Between GitHub Instances'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2024-03-21 13:30:00 -0500
 description: Migrating Docker containers stored in GitHub Packages / GitHub Container Registry between GitHub instances
 categories: [GitHub, Packages]

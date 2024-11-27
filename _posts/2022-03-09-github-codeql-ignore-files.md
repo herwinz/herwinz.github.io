@@ -1,6 +1,6 @@
 ---
 title: 'Ignore Files in GitHub CodeQL Analysis'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2022-03-08 12:00:00 -0600
 description: Exclude file(s) from the results of GitHub's CodeQL Analysis tool (part of GitHub Advanced Security)
 categories: [GitHub, Advanced Security]

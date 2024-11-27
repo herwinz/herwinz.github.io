@@ -1,6 +1,6 @@
 ---
 title: 'Working Azure DevOps Pipeline Caching for Angular CI'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2021-11-14 20:30:00 -0600
 description: I share how I finally got the Pipeline Cache task to work with my Angular build pipeline
 categories: [Azure DevOps, Pipelines]

@@ -78,7 +78,7 @@ Since we aren't using the theme gem (so we can do customizations), we have to do
     - If there are new files that we don't want to track, delete the files, commit, and run another rebase `git rebase -i HEAD~2`
     - This command can help with tracking new files in the most recent commit: `git diff-tree --compact-summary -r HEAD --diff-filter=A`
 9.  Ensure commit signing is enabled: `git config commit.gpgsign true`
-10. Update author and commit time: `git commit --amend --author "Josh Johanning <joshjohanning@github.com>" --date=now -S`
+10. Update author and commit time: `git commit --amend --author "Herwindra Berlian <joshjohanning@github.com>" --date=now -S`
 11. [Test changes locally before pushing](#building--testing-locally)
 
 ## Building / Testing Locally

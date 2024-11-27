@@ -1,6 +1,6 @@
 ---
 title: 'Tokenization / Replacing Environment Tokens in GitHub Actions'
-author: Josh Johanning
+author: Herwindra Berlian
 date: 2023-06-22 16:30:00 -0500
 description: Replacing environment-specific configuration at deployment time
 categories: [GitHub, Actions]
