@@ -104,7 +104,7 @@ git push -u origin main
 
 ## Option 5: SVN to Git
 
-1. See my [blog post](https://josh-ops.com/posts/migrate-svn-to-git/)! 
+1. See my [blog post](https://herwinz.github.io/posts/migrate-svn-to-git/)! 
 2. Otherwise, if your SVN repo is internet-accessible, see: [GitHub Importer](#option-1-using-github-importer)
 
 ## Option 6: TFVC to Git

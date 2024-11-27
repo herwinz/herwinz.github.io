@@ -1,10 +1,10 @@
-# josh-ops.com
+# herwinz.github.io
 
 ## Overview
 
 A DevOps Blog - Blogging about GitHub and Azure DevOps practices, tips, scripts, and my continuous improvement DevOps journey.
 
-[**josh-ops.com →**](https://josh-ops.com)
+[**herwinz.github.io →**](https://herwinz.github.io)
 
 [![Build and Deploy](https://github.com/joshjohanning/joshjohanning.github.io/actions/workflows/pages-deploy.yml/badge.svg?branch=main)](https://github.com/joshjohanning/joshjohanning.github.io/actions/workflows/pages-deploy.yml)
 
@@ -24,7 +24,7 @@ Chirpy:
 
 ### Adding Speaking tab
 
-- Added a [speaking tab](https://josh-ops.com/speaking/) to capture my speaking engagements
+- Added a [speaking tab](https://herwinz.github.io/speaking/) to capture my speaking engagements
 - [Used an icon](https://github.com/joshjohanning/joshjohanning.github.io/blob/ab7bb6e3842189adf1dccc909e1e77b86b625d0a/_tabs/speaking.md?plain=1#L3) from [fontawesome](https://fontawesome.com/v4/icons/) for the link in the sidebar
 
 ### Light Mode Sidebar Background Color

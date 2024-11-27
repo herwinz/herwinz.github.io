@@ -17,9 +17,9 @@ order: 4
 
 ⚡ I have been an avid user of Azure Pipelines and have my pipeline templates consolidated in my [pipeline-templates](https://github.com/joshjohanning/pipeline-templates) repo
 
-⚡ I blog about my DevOps experiences at [josh-ops.com](https://josh-ops.com)
+⚡ I blog about my DevOps experiences at [herwinz.github.io](https://herwinz.github.io)
 
 ⚡ To contact me: 
-  - 🌱 Leave a comment on one of my [posts](https://josh-ops.com)!
+  - 🌱 Leave a comment on one of my [posts](https://herwinz.github.io)!
   - 🌱 [Message me on LinkedIn](https://www.linkedin.com/in/herwindra/)
   - 🌱 [Tweet me](https://twitter.com/jjjettrain)

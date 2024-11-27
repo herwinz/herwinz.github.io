@@ -178,8 +178,8 @@ jobs:
         # token: ${{ github.token }}
         name: Second Job
         conclusion: ${{ job.status }}
-        details_url: https://josh-ops.com/posts/github-code-coverage/
-        action_url: https://josh-ops.com/posts/github-code-coverage/
+        details_url: https://herwinz.github.io/posts/github-code-coverage/
+        action_url: https://herwinz.github.io/posts/github-code-coverage/
         output: |
           {"summary":""}
         output_text_description_file: code-coverage-results.md
@@ -228,8 +228,8 @@ jobs:
         # token: ${{ github.token }}
         name: Second Job
         conclusion: ${{ job.status }}
-        details_url: https://josh-ops.com/posts/github-code-coverage/
-        action_url: https://josh-ops.com/posts/github-code-coverage/
+        details_url: https://herwinz.github.io/posts/github-code-coverage/
+        action_url: https://herwinz.github.io/posts/github-code-coverage/
         output: |
           {"summary":""}
         output_text_description_file: code-coverage-results.md
