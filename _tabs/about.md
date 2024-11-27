@@ -21,5 +21,5 @@ order: 4
 
 ⚡ To contact me: 
   - 🌱 Leave a comment on one of my [posts](https://josh-ops.com)!
-  - 🌱 [Message me on LinkedIn](https://www.linkedin.com/in/joshua-johanning/)
+  - 🌱 [Message me on LinkedIn](https://www.linkedin.com/in/herwindra/)
   - 🌱 [Tweet me](https://twitter.com/jjjettrain)
