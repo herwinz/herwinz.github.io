@@ -171,6 +171,10 @@ li {
   margin: 7px 0;
 }
 
+.award-list li {
+  margin: 12px 0;
+}
+
 .cert-list a {
   font-weight: 700;
 }
