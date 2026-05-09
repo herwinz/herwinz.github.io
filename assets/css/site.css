@@ -196,6 +196,56 @@ li {
   column-gap: 44px;
 }
 
+.menu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.menu-card {
+  display: block;
+  padding: 16px 16px 14px;
+  border: 1px solid #cdd6e3;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0f1b2d;
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.98), rgba(234, 242, 250, 0.95));
+  box-shadow: 0 2px 10px rgba(11, 36, 75, 0.08);
+  transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+}
+
+.menu-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 18px rgba(11, 36, 75, 0.18);
+  border-color: #88a6cc;
+  color: #0f1b2d;
+}
+
+.menu-card strong {
+  display: block;
+  margin: 3px 0 6px;
+  font-size: 19px;
+  line-height: 1.2;
+}
+
+.menu-card-kicker {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #27558f;
+}
+
+.menu-card-note {
+  display: block;
+  color: #4e5f77;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
 .footer {
   background: var(--footer);
   padding: 28px 0;
@@ -264,5 +314,18 @@ li {
 
   .two-col {
     columns: 1;
+  }
+
+  .menu-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .menu-card {
+    padding: 14px 14px 12px;
+  }
+
+  .menu-card strong {
+    font-size: 18px;
   }
 }
