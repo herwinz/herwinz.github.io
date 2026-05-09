@@ -71,7 +71,7 @@ a:hover {
 }
 
 .hero {
-  min-height: 250px;
+  min-height: 150px;
   display: flex;
   align-items: center;
   background:
@@ -91,7 +91,7 @@ a:hover {
 .hero h1 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 42px;
+  font-size: 34px;
   line-height: 1.15;
 }
 
@@ -102,21 +102,23 @@ a:hover {
 }
 
 .portrait {
-  width: 122px;
-  height: 122px;
+  width: 88px;
+  height: 88px;
   border-radius: 50%;
   background: #ffffff;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .home-hero h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 .home-hero p {
-  margin: 6px 0 0;
-  font-size: 17px;
+  margin: 4px 0 0;
+  font-size: 16px;
 }
 
 .content {
@@ -239,11 +241,11 @@ li {
   }
 
   .hero {
-    min-height: 190px;
+    min-height: 128px;
   }
 
   .hero h1 {
-    font-size: 34px;
+    font-size: 28px;
   }
 
   .home-hero .hero-inner {
@@ -252,12 +254,12 @@ li {
   }
 
   .portrait {
-    width: 82px;
-    height: 82px;
+    width: 66px;
+    height: 66px;
   }
 
   .home-hero h1 {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .two-col {
