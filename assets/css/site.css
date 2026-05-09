@@ -142,12 +142,14 @@ a:hover {
   font-size: 16px;
 }
 
-.home-hero p a {
+.home-hero p a,
+.home-hero p a:visited {
   color: #ffffff;
 }
 
 .home-hero p a:hover,
-.home-hero p a:focus-visible {
+.home-hero p a:focus-visible,
+.home-hero p a:active {
   color: #ffffff;
 }
 
@@ -290,6 +292,22 @@ li {
 }
 
 .footer-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
   text-align: right;
 }
 
@@ -457,5 +475,16 @@ li {
 
   .menu-card strong {
     font-size: 18px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .footer-left,
+  .footer-right {
+    text-align: left;
   }
 }
