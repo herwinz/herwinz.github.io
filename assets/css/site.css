@@ -51,9 +51,9 @@ a:hover {
 .site-name {
   color: #111111;
   font-size: 21px;
-  font-family: "Cormorant Garamond", "Times New Roman", serif;
-  font-style: italic;
-  font-weight: 700;
+  font-family: "Cormorant Garamond", "Palatino Linotype", "Book Antiqua", "Times New Roman", serif !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
   letter-spacing: 0.02em;
   text-decoration: none;
   white-space: nowrap;
