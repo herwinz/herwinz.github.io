@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.herwin.my.id/</loc></url>
-  <url><loc>https://www.herwin.my.id/publications/</loc></url>
-  <url><loc>https://www.herwin.my.id/teaching/</loc></url>
-  <url><loc>https://www.herwin.my.id/awards/</loc></url>
   <url><loc>https://www.herwin.my.id/cv/</loc></url>
-  <url><loc>https://www.herwin.my.id/certifications/</loc></url>
   <url><loc>https://www.herwin.my.id/projects/</loc></url>
+  <url><loc>https://www.herwin.my.id/certifications/</loc></url>
+  <url><loc>https://www.herwin.my.id/publications/</loc></url>
+  <url><loc>https://www.herwin.my.id/awards/</loc></url>
 </urlset>
