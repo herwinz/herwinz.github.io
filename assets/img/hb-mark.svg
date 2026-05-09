@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
   <title id="title">HB monogram</title>
-  <desc id="desc">Muhammad Herwindra Berlian portfolio mark</desc>
+  <desc id="desc">M. Herwindra Berlian portfolio mark</desc>
   <rect width="240" height="240" rx="48" fill="#063b3f"/>
   <path d="M35 185V55h28v50h50V55h28v130h-28v-54H63v54H35Z" fill="#f6f0df"/>
   <path d="M151 185V55h46c12 0 21 3 28 10 7 6 10 14 10 25 0 14-6 24-19 30 16 5 24 16 24 32 0 11-4 20-12 26-8 5-19 7-33 7h-44Zm27-76h16c9 0 14-5 14-14 0-8-5-13-14-13h-16v27Zm0 50h19c10 0 16-5 16-15 0-9-6-14-17-14h-18v29Z" fill="#f4b63f"/>
