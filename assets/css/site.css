@@ -45,6 +45,9 @@ a:hover {
   padding: 0 28px;
   background: #ffffff;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .site-name {
@@ -137,6 +140,15 @@ a:hover {
 .home-hero p {
   margin: 4px 0 0;
   font-size: 16px;
+}
+
+.home-hero p a {
+  color: #ffffff;
+}
+
+.home-hero p a:hover,
+.home-hero p a:focus-visible {
+  color: #ffffff;
 }
 
 .content {
@@ -277,11 +289,16 @@ li {
   color: #ffffff;
 }
 
+.footer-inner {
+  text-align: right;
+}
+
 .social {
   margin-top: 16px;
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: flex-end;
 }
 
 .footer a {
@@ -290,6 +307,48 @@ li {
 
 .footer a:hover {
   color: #ffffff;
+}
+
+.footer-quicklinks {
+  margin: 16px 0 6px;
+  font-size: 16px;
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #1e66d1, #0b3f96);
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(8, 47, 112, 0.35);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease, box-shadow 160ms ease;
+  z-index: 1200;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  box-shadow: 0 10px 24px rgba(8, 47, 112, 0.48);
 }
 
 .social-icon {
