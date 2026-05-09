@@ -167,6 +167,14 @@ li {
   margin: 11px 0;
 }
 
+.cert-list li {
+  margin: 7px 0;
+}
+
+.cert-list a {
+  white-space: nowrap;
+}
+
 .muted {
   color: var(--muted);
 }
