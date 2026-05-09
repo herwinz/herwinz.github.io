@@ -1,5 +1,5 @@
 # herwin.my.id
 
-Static portfolio website for Muhammad Herwindra Berlian.
+Static academic portfolio for Muhammad Herwindra Berlian.
 
-This repository is intentionally plain HTML, CSS, and JavaScript for GitHub Pages. Jekyll/Chirpy files were removed so the site can be edited and published directly.
+The site uses plain HTML and one small CSS file. Clean URLs are served through directory `index.html` files, for example `/cv/` maps to `cv/index.html`.
