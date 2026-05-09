@@ -267,20 +267,67 @@ li {
 }
 
 .footer {
-  background: var(--footer);
+  background:
+    radial-gradient(1200px 280px at 20% -10%, rgba(59, 102, 171, 0.35), transparent 55%),
+    linear-gradient(120deg, #0a1f36, #102d4c 48%, #173c62);
   padding: 28px 0;
+  color: #e7f0fa;
 }
 
 .footer h2 {
-  color: #111111;
+  color: #ffffff;
 }
 
 .social {
-  margin-top: 14px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.social a {
-  margin-right: 12px;
+.footer a {
+  color: #e7f0fa;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.social-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(223, 235, 251, 0.36);
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.social-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: #f6fbff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .redirect {
