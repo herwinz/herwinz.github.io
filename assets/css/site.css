@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap");
 
 :root {
   --blue: #06479d;
@@ -51,6 +51,10 @@ a:hover {
 .site-name {
   color: #111111;
   font-size: 21px;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   text-decoration: none;
   white-space: nowrap;
 }
