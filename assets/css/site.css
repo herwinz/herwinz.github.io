@@ -172,7 +172,13 @@ li {
 }
 
 .cert-list a {
-  white-space: nowrap;
+  font-weight: 700;
+}
+
+.cert-meta {
+  display: block;
+  color: var(--muted);
+  font-size: 15px;
 }
 
 .muted {
