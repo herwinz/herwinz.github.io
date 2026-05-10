@@ -350,14 +350,12 @@ li {
   position: fixed;
   right: 22px;
   bottom: 22px;
-  width: 44px;
-  height: 44px;
+  width: 52px;
+  height: 52px;
   border: 0;
   border-radius: 999px;
   background: linear-gradient(145deg, #1e66d1, #0b3f96);
   color: #ffffff;
-  font-size: 24px;
-  line-height: 1;
   cursor: pointer;
   box-shadow: 0 8px 20px rgba(8, 47, 112, 0.35);
   opacity: 0;
@@ -375,6 +373,16 @@ li {
 
 .back-to-top:hover {
   box-shadow: 0 10px 24px rgba(8, 47, 112, 0.48);
+}
+
+.back-to-top svg {
+  width: 24px;
+  height: 24px;
+  stroke: #ffffff;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .social-icon {
