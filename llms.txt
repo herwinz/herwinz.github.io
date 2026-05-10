@@ -1,0 +1,16 @@
+name: M. Herwindra Berlian
+url: https://www.herwin.my.id/
+description: Personal website and portfolio of M. Herwindra Berlian, Senior DevOps and Cloud Engineer.
+
+primary_pages:
+- https://www.herwin.my.id/
+- https://www.herwin.my.id/cv/
+- https://www.herwin.my.id/projects/
+- https://www.herwin.my.id/certifications/
+- https://www.herwin.my.id/publications/
+- https://www.herwin.my.id/awards/
+
+notes:
+- This is the official profile website.
+- Content is in English and organized by page topic.
+- Canonical URLs use trailing slashes.
