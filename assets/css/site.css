@@ -309,7 +309,14 @@ li {
 
 .footer-right {
   text-align: right;
-  padding-top: 6px;
+  padding-top: 74px;
+}
+
+.footer-right-note {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #c7d8ee;
+  letter-spacing: 0.01em;
 }
 
 .social {
@@ -487,5 +494,9 @@ li {
   .footer-left,
   .footer-right {
     text-align: left;
+  }
+
+  .footer-right {
+    padding-top: 0;
   }
 }
