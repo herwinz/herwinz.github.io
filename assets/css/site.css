@@ -309,12 +309,12 @@ li {
 
 .footer-right {
   text-align: right;
-  padding-top: 74px;
+  padding-top: 40px;
 }
 
 .footer-right-note {
   margin: 0 0 10px;
-  font-size: 15px;
+  font-size: 13px;
   color: #c7d8ee;
   letter-spacing: 0.01em;
 }
@@ -336,13 +336,13 @@ li {
 }
 
 .footer-quicklinks {
-  margin: 16px 0 6px;
-  font-size: 16px;
+  margin: 8px 0 4px;
+  font-size: 13px;
 }
 
 .footer-copy {
   margin: 0;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 600;
 }
 
