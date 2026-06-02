@@ -1,3 +1,3 @@
 # herwin.my.id
 
-Static academic portfolio for M. Herwindra Berlian.
+Static academic portfolio for Herwindra Berlian.
