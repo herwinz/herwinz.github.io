@@ -6,6 +6,7 @@
     <title>Curriculum Vitae - Herwindra Berlian</title>
     <meta name="description" content="Curriculum Vitae of Herwindra Berlian.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#f1ede2">
     <link rel="canonical" href="https://www.herwin.my.id/cv/">
     <meta property="og:type" content="profile">
     <meta property="og:site_name" content="Herwindra Berlian">
@@ -27,167 +28,400 @@
       }
     </script>
     <link rel="icon" href="/assets/img/hb-mark.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap">
     <link rel="stylesheet" href="/assets/css/site.css">
+    <script defer src="/assets/js/site.js"></script>
   </head>
   <body>
+    <a class="skip" href="#main">Skip to content</a>
     <header class="topbar">
-      <a class="site-name" href="/">Herwindra Berlian</a>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="/">Home</a>
-        <a class="active" href="/cv/">CV</a>
-        <a href="/projects/">Projects</a>
-        <a href="/certifications/">Certifications</a>
-        <a href="/publications/">Publications</a>
-        <a href="/awards/">Awards</a>
-      </nav>
+      <div class="wrap topbar-inner">
+        <a class="brand" href="/"><span class="brand-mark">HB</span>Herwindra</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+        <nav class="nav" id="site-nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a class="active" href="/cv/" aria-current="page">CV</a>
+          <a href="/projects/">Projects</a>
+          <a href="/certifications/">Certs</a>
+          <a href="/publications/">Papers</a>
+          <a href="/awards/">Awards</a>
+          <a class="btn acid nav-cta" href="/assets/Herwindra-DevOps-CV.pdf" target="_blank" rel="noopener">Get CV</a>
+        </nav>
+      </div>
     </header>
 
-    <section class="hero">
-      <div class="hero-inner">
-        <h1>Curriculum Vitae</h1>
-        <p class="hero-subtitle">Career timeline, education path, and technical strengths in one focused view.</p>
-      </div>
-    </section>
-
-    <main class="content">
-      <section class="section">
-        <h2>Education</h2>
-        <ul>
-          <li><strong>Master of Engineering - M.Eng, Information Technology</strong>, Universitas Gadjah Mada, Aug 2024 – Jul 2026. GPA: 3.64 / 4.00. Thesis: Cloud Sizing Automation for Platform-as-a-Service Based on Historical Analysis.</li>
-          <li><strong>Professional Engineering Program - Ir, Informatics Engineering</strong>, Diponegoro University, Feb 2026 – Jul 2026. Professional project: Evaluation of Cloud-Native Infrastructure Migration and Modernization Strategy Based on the Azure Well-Architected Framework (Case Study: Logistics Platform).</li>
-          <li><strong>Professional Engineer - IPM, Informatics Engineering</strong>, Persatuan Insinyur Indonesia (Official), Nov 2025 – Feb 2026.</li>
-          <li><strong>Bachelor of Applied Science - S.ST, Computer Engineering</strong>, Electronic Engineering Polytechnic Institute of Surabaya, Aug 2012 – Sep 2016. GPA: 3.40 / 4.00. Final project: Design and Implementation of an Open Platform Cyber-Physical-Human System.</li>
-          <li><strong>Professional Courses, Computer Engineering</strong>, Institut Pembangunan Surabaya, Jul 2011 – Jun 2012.</li>
-          <li><strong>Vocational High School, Computer and Informatics Engineering</strong>, SMKN 2 Buduran Sidoarjo, Aug 2009 – Jun 2012.</li>
-        </ul>
+    <main id="main">
+      <section class="page-hero">
+        <div class="wrap">
+          <div class="crumbs"><a href="/">Home</a> / CV</div>
+          <span class="tag chip" style="margin-top:22px"><span class="dot"></span> Curriculum Vitae</span>
+          <h1>Curriculum <span class="outline">Vitae</span><span class="hl">.</span></h1>
+          <p>Career timeline, education path, and technical strengths in one <span class="mark">focused view.</span></p>
+          <div class="hero-actions">
+            <a class="btn" href="/assets/Herwindra-DevOps-CV.pdf" target="_blank" rel="noopener noreferrer">Download PDF <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12M6 10l6 6 6-6M5 20h14"/></svg></a>
+            <a class="btn alt" href="#experience">Working experience</a>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Working Experience</h2>
-        <ul>
-          <li><strong>2025-present:</strong> DevOps Engineer at Gardeneur Inc. / HubOn. Working on Google Cloud to Azure migration, infrastructure as code, deployment automation, and environment management.</li>
-          <li><strong>2023-2025:</strong> System Engineer, Site Reliability Engineer, and DevOps Engineer at Privy.ID. Worked on cloud infrastructure, GitOps, Terraform modules, Kubernetes, CI/CD, observability, secret management, and cost optimization across Google Cloud and AWS environments.</li>
-          <li><strong>2021-2023:</strong> System Architect at PT Sinergi Informatika Semen Indonesia. Introduced DevOps practices, containerization, GitLab CI/CD, AWS services, and scalable architecture for enterprise platforms.</li>
-          <li><strong>2018-2020:</strong> System Engineer at PT Sinergi Informatika Semen Indonesia. Maintained hybrid Windows and Linux infrastructure, automated backup and release operations, and configured monitoring with Prometheus, Zabbix, and Nagios.</li>
-          <li><strong>2016-2017:</strong> Software Engineer at PT Sinergi Informatika Semen Indonesia. Built enterprise web applications using Laravel, CodeIgniter, Vue.js, Bootstrap, and React Native.</li>
-        </ul>
+      <section class="section" id="education">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 01 — Education</span>
+              <h2 class="section-title">Degrees &amp; <span class="hl">diplomas.</span></h2>
+            </div>
+            <p>From vocational high school to a master's degree and professional engineer recognition.</p>
+          </div>
+          <div class="grid">
+            <article class="box card t3 reveal">
+              <span class="tag chip cv-when">Aug 2024 – Jul 2026</span>
+              <h3>Master of Engineering - M.Eng</h3>
+              <p><strong>Information Technology</strong>, Universitas Gadjah Mada</p>
+              <p class="cv-kv"><b>GPA</b>3.64 / 4.00</p>
+              <p class="cv-kv"><b>Thesis</b>Cloud Sizing Automation for Platform-as-a-Service Based on Historical Analysis.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-2)">Feb 2026 – Jul 2026</span>
+              <h3>Professional Engineering Program - Ir</h3>
+              <p><strong>Informatics Engineering</strong>, Diponegoro University</p>
+              <p class="cv-kv"><b>Professional project</b>Evaluation of Cloud-Native Infrastructure Migration and Modernization Strategy Based on the Azure Well-Architected Framework (Case Study: Logistics Platform).</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-1)">Nov 2025 – Feb 2026</span>
+              <h3>Professional Engineer - IPM</h3>
+              <p><strong>Informatics Engineering</strong>, Persatuan Insinyur Indonesia (Official)</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-3)">Aug 2012 – Sep 2016</span>
+              <h3>Bachelor of Applied Science - S.ST</h3>
+              <p><strong>Computer Engineering</strong>, Electronic Engineering Polytechnic Institute of Surabaya</p>
+              <p class="cv-kv"><b>GPA</b>3.40 / 4.00</p>
+              <p class="cv-kv"><b>Final project</b>Design and Implementation of an Open Platform Cyber-Physical-Human System.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-4)">Jul 2011 – Jun 2012</span>
+              <h3>Professional Courses</h3>
+              <p><strong>Computer Engineering</strong>, Institut Pembangunan Surabaya</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when paper">Aug 2009 – Jun 2012</span>
+              <h3>Vocational High School</h3>
+              <p><strong>Computer and Informatics Engineering</strong>, SMKN 2 Buduran Sidoarjo</p>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Skills</h2>
-        <ul>
-          <li><strong>Cloud and Infrastructure:</strong> Google Cloud, AWS, Azure, Terraform, Helm, NGINX, OPNsense, Linux, Windows Server.</li>
-          <li><strong>DevOps and Automation:</strong> GitLab CI, GitHub Actions, ArgoCD, FluxCD, GitOps, Kubernetes, Docker, HashiCorp Vault, SonarQube, Python, Golang, Bash.</li>
-          <li><strong>Database and Observability:</strong> PostgreSQL, MySQL, SQL Server, AlloyDB, Redis, MinIO, Firestore, Rook Ceph, Prometheus, Grafana, Datadog, Kwatch, Botkube, Uptime Kuma, Nagios.</li>
-        </ul>
+      <section class="section" id="experience">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 02 — Working Experience</span>
+              <h2 class="section-title">Where I've <span class="outline">shipped.</span></h2>
+            </div>
+            <p>Roles, newest first.</p>
+          </div>
+          <ol class="rows">
+            <li class="row cv-job cv-now shadow-lg reveal">
+              <span class="cv-date">2025 – present</span>
+              <div>
+                <h3>DevOps Engineer</h3>
+                <span class="meta">Gardeneur Inc. / HubOn</span>
+                <p>Working on Google Cloud to Azure migration, infrastructure as code, deployment automation, and environment management.</p>
+              </div>
+            </li>
+            <li class="row cv-job reveal">
+              <span class="cv-date">2023 – 2025</span>
+              <div>
+                <h3>System Engineer, Site Reliability Engineer, and DevOps Engineer</h3>
+                <span class="meta">Privy.ID</span>
+                <p>Worked on cloud infrastructure, GitOps, Terraform modules, Kubernetes, CI/CD, observability, secret management, and cost optimization across Google Cloud and AWS environments.</p>
+              </div>
+            </li>
+            <li class="row cv-job reveal">
+              <span class="cv-date">2021 – 2023</span>
+              <div>
+                <h3>System Architect</h3>
+                <span class="meta">PT Sinergi Informatika Semen Indonesia</span>
+                <p>Introduced DevOps practices, containerization, GitLab CI/CD, AWS services, and scalable architecture for enterprise platforms.</p>
+              </div>
+            </li>
+            <li class="row cv-job reveal">
+              <span class="cv-date">2018 – 2020</span>
+              <div>
+                <h3>System Engineer</h3>
+                <span class="meta">PT Sinergi Informatika Semen Indonesia</span>
+                <p>Maintained hybrid Windows and Linux infrastructure, automated backup and release operations, and configured monitoring with Prometheus, Zabbix, and Nagios.</p>
+              </div>
+            </li>
+            <li class="row cv-job reveal">
+              <span class="cv-date">2016 – 2017</span>
+              <div>
+                <h3>Software Engineer</h3>
+                <span class="meta">PT Sinergi Informatika Semen Indonesia</span>
+                <p>Built enterprise web applications using Laravel, CodeIgniter, Vue.js, Bootstrap, and React Native.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Professional Training</h2>
-        <ul>
-          <li><strong>2025:</strong> FAIP professional engineer preparation and workshop, Persatuan Insinyur Indonesia.</li>
-          <li><strong>2023-2025:</strong> DevOps Engineering, The Linux Foundation training platform. Topics included CI/CD, Docker, Kubernetes, cloud infrastructure, monitoring, deployment automation, and observability.</li>
-          <li><strong>2020:</strong> IT Project Management, Brainmatics. Topics included project planning, cost estimation, risk management, agile methodology, and quality control.</li>
-          <li><strong>2011-2012:</strong> Computer and Network Engineering, Institut Pembangunan Surabaya. Topics included computer hardware, LAN/WAN administration, network security, and troubleshooting.</li>
-        </ul>
+      <section class="section" id="skills">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 03 — Skills</span>
+              <h2 class="section-title">The <span class="mark">toolbox.</span></h2>
+            </div>
+          </div>
+          <div class="grid wide">
+            <div class="box card t3 reveal">
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a5 5 0 1 1 .9-9.9A6 6 0 0 1 19 10a4 4 0 0 1-1 7.9H7z"/></svg></div>
+              <h3>Cloud and Infrastructure</h3>
+              <ul class="chips" aria-label="Cloud and Infrastructure">
+                <li><span>Google Cloud</span></li><li><span>AWS</span></li><li><span>Azure</span></li><li><span>Terraform</span></li><li><span>Helm</span></li>
+                <li><span>NGINX</span></li><li><span>OPNsense</span></li><li><span>Linux</span></li><li><span>Windows Server</span></li>
+              </ul>
+            </div>
+            <div class="box card t2 reveal">
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M4 12h16M4 17h7"/><path d="m15 4 3 3-3 3"/></svg></div>
+              <h3>DevOps and Automation</h3>
+              <ul class="chips" aria-label="DevOps and Automation">
+                <li><span>GitLab CI</span></li><li><span>GitHub Actions</span></li><li><span>ArgoCD</span></li><li><span>FluxCD</span></li><li><span>GitOps</span></li><li><span>Kubernetes</span></li>
+                <li><span>Docker</span></li><li><span>HashiCorp Vault</span></li><li><span>SonarQube</span></li><li><span>Python</span></li><li><span>Golang</span></li><li><span>Bash</span></li>
+              </ul>
+            </div>
+            <div class="box card t4 reveal">
+              <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg></div>
+              <h3>Database and Observability</h3>
+              <ul class="chips" aria-label="Database and Observability">
+                <li><span>PostgreSQL</span></li><li><span>MySQL</span></li><li><span>SQL Server</span></li><li><span>AlloyDB</span></li><li><span>Redis</span></li><li><span>MinIO</span></li>
+                <li><span>Firestore</span></li><li><span>Rook Ceph</span></li><li><span>Prometheus</span></li><li><span>Grafana</span></li><li><span>Datadog</span></li><li><span>Kwatch</span></li>
+                <li><span>Botkube</span></li><li><span>Uptime Kuma</span></li><li><span>Nagios</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Professional and Technical Organizations</h2>
-        <ul>
-          <li><strong>2025-present:</strong> Persatuan Insinyur Indonesia (Official), Informatics Board.</li>
-          <li><strong>2013-2016:</strong> Researcher at ER2C - EEPIS Robotics Research Center. Worked with the PENShip autonomous roboboat team on hull and mechanics design, OpenGL simulation, graphic design, and web development; later joined educational robotics research on RoboViper, a visual drag-and-drop Android robot programming tool; and contributed to Internet of Underwater Things research for smart environment monitoring with Hadoop-based big data processing.</li>
-          <li><strong>2014:</strong> Head of Research and Technology, Student Association of Informatics and Computer Engineering. Led student research and technology development activities for the Informatics and Computer Engineering student community at PENS.</li>
-          <li><strong>2012:</strong> Open Source Community at Himpunan Mahasiswa Teknik Informatika PENS. Surabaya, East Java, Indonesia · Hybrid.</li>
-          <li><strong>2011-2012:</strong> IT Network Support at LKS SMK. Sidoarjo, East Java, Indonesia · Hybrid.</li>
-          <li><strong>2009-2010:</strong> Computer Lab Assistant at SMKN 2 Buduran Sidoarjo. Sidoarjo, East Java, Indonesia · On-site.</li>
-        </ul>
+      <section class="section" id="training">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 04 — Professional Training</span>
+              <h2 class="section-title">Always <span class="hl">learning.</span></h2>
+            </div>
+          </div>
+          <ol class="timeline reveal">
+            <li><time>2025</time><span class="what"><strong>FAIP professional engineer preparation and workshop</strong>, Persatuan Insinyur Indonesia.</span></li>
+            <li><time>2023 – 2025</time><span class="what"><strong>DevOps Engineering</strong>, The Linux Foundation training platform. Topics included CI/CD, Docker, Kubernetes, cloud infrastructure, monitoring, deployment automation, and observability.</span></li>
+            <li><time>2020</time><span class="what"><strong>IT Project Management</strong>, Brainmatics. Topics included project planning, cost estimation, risk management, agile methodology, and quality control.</span></li>
+            <li><time>2011 – 2012</time><span class="what"><strong>Computer and Network Engineering</strong>, Institut Pembangunan Surabaya. Topics included computer hardware, LAN/WAN administration, network security, and troubleshooting.</span></li>
+          </ol>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Volunteering and Mentoring</h2>
-        <ul>
-          <li><strong>2025-present:</strong> Mentor at CertDirectory.io, supporting science and technology learning.</li>
-          <li><strong>2024-present:</strong> Mentor at Dealls - Jobs and Mentoring, supporting science and technology career development.</li>
-          <li><strong>2014-2015:</strong> Volunteer at Young Engineers and Scientists Summit ASEAN.</li>
-          <li><strong>2015:</strong> Volunteer at the Hong Kong Trade Development Council.</li>
-        </ul>
+      <section class="section" id="organizations">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 05 — Professional and Technical Organizations</span>
+              <h2 class="section-title">Communities &amp; <span class="outline">labs.</span></h2>
+            </div>
+          </div>
+          <div class="grid">
+            <article class="box card reveal" style="background:var(--acid);grid-column:1 / -1">
+              <span class="tag chip cv-when paper">2025 – present</span>
+              <h3>Persatuan Insinyur Indonesia (Official)</h3>
+              <p style="color:var(--ink)">Informatics Board.</p>
+            </article>
+            <article class="box card reveal" style="grid-column:1 / -1">
+              <span class="tag chip cv-when" style="background:var(--tone-3)">2013 – 2016</span>
+              <h3>Researcher at ER2C - EEPIS Robotics Research Center</h3>
+              <p>Worked with the PENShip autonomous roboboat team on hull and mechanics design, OpenGL simulation, graphic design, and web development; later joined educational robotics research on RoboViper, a visual drag-and-drop Android robot programming tool; and contributed to Internet of Underwater Things research for smart environment monitoring with Hadoop-based big data processing.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-1)">2014</span>
+              <h3>Head of Research and Technology</h3>
+              <p><strong>Student Association of Informatics and Computer Engineering.</strong> Led student research and technology development activities for the Informatics and Computer Engineering student community at PENS.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-2)">2012</span>
+              <h3>Open Source Community</h3>
+              <p>Himpunan Mahasiswa Teknik Informatika PENS.</p>
+              <p class="cv-kv">Surabaya, East Java, Indonesia · Hybrid.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-4)">2011 – 2012</span>
+              <h3>IT Network Support</h3>
+              <p>LKS SMK.</p>
+              <p class="cv-kv">Sidoarjo, East Java, Indonesia · Hybrid.</p>
+            </article>
+            <article class="box card reveal">
+              <span class="tag chip cv-when paper">2009 – 2010</span>
+              <h3>Computer Lab Assistant</h3>
+              <p>SMKN 2 Buduran Sidoarjo.</p>
+              <p class="cv-kv">Sidoarjo, East Java, Indonesia · On-site.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="volunteering">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 06 — Volunteering and Mentoring</span>
+              <h2 class="section-title">Giving <span class="hl">back.</span></h2>
+            </div>
+          </div>
+          <ol class="timeline reveal">
+            <li><time>2025 – present</time><span class="what"><strong>Mentor at CertDirectory.io</strong>, supporting science and technology learning.</span></li>
+            <li><time>2024 – present</time><span class="what"><strong>Mentor at Dealls - Jobs and Mentoring</strong>, supporting science and technology career development.</span></li>
+            <li><time>2014 – 2015</time><span class="what"><strong>Volunteer at Young Engineers and Scientists Summit ASEAN.</strong></span></li>
+            <li><time>2015</time><span class="what"><strong>Volunteer at the Hong Kong Trade Development Council.</strong></span></li>
+          </ol>
+        </div>
       </section>
 
       <section class="section" id="teaching">
-        <h2>Teaching and Mentoring</h2>
-        <ul>
-          <li><strong>2024:</strong> DevOps Instructor for Container Management and Orchestration with Docker and Kubernetes, AWS-supported Cloud Engineer program by SEAL under the Kampus Merdeka program.</li>
-          <li><strong>2024:</strong> DevOps Instructor for an introduction to DevOps concepts and practices, Haltev IT Learning Center and Catur Insan Cendekia University.</li>
-          <li><strong>2024:</strong> Guest lecturer for Practical Agile and DevOps in Industry, Padang Institute of Technology.</li>
-          <li><strong>2018:</strong> Guest lecturer for technical and career preparation in startup and corporate software engineering, Computer Engineering Department, PENS.</li>
-        </ul>
-        <p>Training topics include Docker, Kubernetes, Helm, AWS EKS, ECS, ECR, GitLab CI, GitHub Actions, GitOps, Agile delivery, observability, and production readiness.</p>
-        <p>I trained 100 active participants from 59 universities in the AWS Cloud and DevOps program and was recognized as the highest-rated mentor in the mid-program survey.</p>
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 07 — Teaching and Mentoring</span>
+              <h2 class="section-title">From the <span class="mark">front</span> of the room.</h2>
+            </div>
+          </div>
+          <div class="bento">
+            <ol class="rows" style="align-content:start">
+              <li class="row reveal">
+                <span class="meta">2024 · DevOps Instructor</span>
+                <p>Container Management and Orchestration with Docker and Kubernetes, AWS-supported Cloud Engineer program by SEAL under the Kampus Merdeka program.</p>
+              </li>
+              <li class="row reveal">
+                <span class="meta">2024 · DevOps Instructor</span>
+                <p>An introduction to DevOps concepts and practices, Haltev IT Learning Center and Catur Insan Cendekia University.</p>
+              </li>
+              <li class="row reveal">
+                <span class="meta">2024 · Guest lecturer</span>
+                <p>Practical Agile and DevOps in Industry, Padang Institute of Technology.</p>
+              </li>
+              <li class="row reveal">
+                <span class="meta">2018 · Guest lecturer</span>
+                <p>Technical and career preparation in startup and corporate software engineering, Computer Engineering Department, PENS.</p>
+              </li>
+            </ol>
+            <div style="display:grid;gap:22px;align-content:start">
+              <div class="box quote shadow-lg reveal">
+                <span class="tag">Impact</span>
+                <p style="margin:16px 0 0">I trained 100 active participants from 59 universities in the AWS Cloud and DevOps program and was recognized as the highest-rated mentor in the mid-program survey.</p>
+              </div>
+              <div class="box reveal">
+                <span class="tag" style="color:var(--ink-soft)">Training topics include</span>
+                <ul class="chips" aria-label="Training topics" style="margin:14px 0 0;padding:0">
+                  <li><span>Docker</span></li><li><span>Kubernetes</span></li><li><span>Helm</span></li><li><span>AWS EKS</span></li><li><span>ECS</span></li><li><span>ECR</span></li>
+                  <li><span>GitLab CI</span></li><li><span>GitHub Actions</span></li><li><span>GitOps</span></li><li><span>Agile delivery</span></li><li><span>observability</span></li><li><span>production readiness</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Languages</h2>
-        <ul>
-          <li>English: active written and spoken proficiency.</li>
-          <li>Indonesian: native or active written and spoken proficiency.</li>
-          <li>Javanese: active written and spoken proficiency.</li>
-        </ul>
+      <section class="section" id="languages">
+        <div class="wrap">
+          <div class="section-head">
+            <div>
+              <span class="tag kicker">// 08 — Languages &amp; Test Scores</span>
+              <h2 class="section-title">Talk &amp; <span class="hl">tested.</span></h2>
+            </div>
+          </div>
+          <h3 class="cv-sub">Languages</h3>
+          <div class="grid wide">
+            <div class="box card reveal">
+              <span class="tag chip cv-when">EN</span>
+              <h3>English</h3>
+              <p>Active written and spoken proficiency.</p>
+            </div>
+            <div class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-1)">ID</span>
+              <h3>Indonesian</h3>
+              <p>Native or active written and spoken proficiency.</p>
+            </div>
+            <div class="box card reveal">
+              <span class="tag chip cv-when" style="background:var(--tone-2)">JV</span>
+              <h3>Javanese</h3>
+              <p>Active written and spoken proficiency.</p>
+            </div>
+          </div>
+          <h3 class="cv-sub" id="test-scores" style="margin-top:48px">Test Scores</h3>
+          <div class="stats cv-stats-3 reveal">
+            <div class="stat"><div class="stat-num">618</div><div class="tag stat-label">Bappenas Academic Potential Test</div><p class="cv-valid">June 2024 - June 2026</p></div>
+            <div class="stat"><div class="stat-num">584</div><div class="tag stat-label">UGM Graduate Academic Potential Test (PAPs)</div><p class="cv-valid">June 2024 - June 2026</p></div>
+            <div class="stat"><div class="stat-num">547</div><div class="tag stat-label">TOEFL ITP</div><p class="cv-valid">April 2026 - April 2028</p></div>
+          </div>
+        </div>
       </section>
 
-      <section class="section">
-        <h2>Test Scores</h2>
-        <ul>
-          <li><strong>Bappenas Academic Potential Test:</strong> 618, June 2024 - June 2026.</li>
-          <li><strong>UGM Graduate Academic Potential Test (PAPs):</strong> 584, June 2024 - June 2026.</li>
-          <li><strong>TOEFL ITP:</strong> 547, April 2026 - April 2028.</li>
-        </ul>
-      </section>
-
-      <section class="section">
-        <h2>PDF Version</h2>
-        <p><a href="/assets/Herwindra-DevOps-CV.pdf" target="_blank" rel="noopener noreferrer">Download PDF CV</a></p>
+      <section class="cta on-ink" id="pdf">
+        <div class="wrap">
+          <span class="tag" style="color:var(--acid)">// PDF Version</span>
+          <h2 style="margin-top:18px">Take it<br><span class="outline-bone">offline.</span> <span style="color:var(--acid)">One file.</span></h2>
+          <p>Prefer a single file? Grab the same CV as a printable PDF.</p>
+          <div class="hero-actions">
+            <a class="btn acid" href="/assets/Herwindra-DevOps-CV.pdf" target="_blank" rel="noopener noreferrer">Download PDF CV</a>
+            <a class="btn alt" href="mailto:berlianherwindra@gmail.com">Email me</a>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer-inner">
-        <div class="footer-main">
-          <div class="footer-left">
-            <h2>Contact</h2>
-            <p><a href="https://cncf.herwin.my.id/" target="_blank" rel="noopener noreferrer">Herwindra Berlian (DevOps Engineer)</a> <br><a href="https://maps.app.goo.gl/Y188Xkn191zhQjT9A" target="_blank" rel="noopener noreferrer">Special Region of Yogyakarta Indonesia</a><br>Email: <a href="mailto:berlianherwindra@gmail.com">berlianherwindra@gmail.com</a></p>
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="brand" href="/"><span class="brand-mark">HB</span>Herwindra Berlian</a>
+            <p>DevOps &amp; Cloud Engineer. Cloud • DevOps • Platform Engineering.</p>
             <div class="social">
-          <a class="social-icon"  href="https://www.linkedin.com/in/herwindra" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><span class="sr-only">LinkedIn</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.9-2.1 3.9-2.1 4.2 0 5 2.8 5 6.4V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21H9z"/></svg></a>
-          <a class="social-icon"  href="https://github.com/herwinz" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><span class="sr-only">GitHub</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1 .1 1.6 1.1 1.6 1.1 1 .1 2.5.7 3.1-.2.1-.7.4-1.1.7-1.4-2.6-.3-5.4-1.3-5.4-6 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3 0 0 1-.3 3.3 1.2A11.4 11.4 0 0 1 12 6.8c1 0 2 .1 3 .4 2.3-1.5 3.3-1.2 3.3-1.2.6 1.5.2 2.7.1 3 .8.9 1.2 2 1.2 3.3 0 4.8-2.9 5.7-5.6 6 .4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a>
-          <a class="social-icon"  href="https://orcid.org/0009-0002-8403-5456" aria-label="ORCID" target="_blank" rel="noopener noreferrer"><span class="sr-only">ORCID</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-6.6 5.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM4.5 11h1.8v6.1H4.5V11zm3.3 0h4.8c2.3 0 3.7 1.5 3.7 3.1 0 1.8-1.3 3.1-3.6 3.1H7.8V11zm1.8 1.5v3.1h2.7c1.4 0 2.1-.7 2.1-1.6 0-.8-.7-1.5-2.1-1.5H9.6z"/></svg></a>
-          <a class="social-icon"  href="https://www.instagram.com/herwindrab/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><span class="sr-only">Instagram</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-2.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
-          <a class="social-icon"  href="https://wa.me/6281939115544?text=Hello" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><span class="sr-only">WhatsApp</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3.9A11 11 0 0 0 3.2 18.2L2 22l3.9-1.2A11 11 0 1 0 20 3.9zM12 20a8.9 8.9 0 0 1-4.5-1.2l-.3-.2-2.3.7.7-2.2-.2-.4A9 9 0 1 1 12 20zm4.9-6.7c-.3-.2-1.6-.8-1.9-.9-.3-.1-.4-.2-.6.2s-.7.9-.8 1.1c-.2.2-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.4-.5.2-.4c.1-.1.1-.3 0-.5 0-.2-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.8.4c-.3.3-1 1-1 2.3s1 2.5 1.1 2.7c.2.2 2 3.1 4.9 4.3 2.9 1.2 2.9.8 3.4.7.5 0 1.6-.7 1.8-1.3.2-.6.2-1.2.1-1.3-.1-.1-.3-.2-.6-.4z"/></svg></a>
-          <a class="social-icon"  href="https://www.youtube.com/c/MuhammadHerwindraBerlian" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><span class="sr-only">YouTube</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 7.2a3 3 0 0 0-2.1-2.1C19.5 4.5 12 4.5 12 4.5s-7.5 0-9.4.6a3 3 0 0 0-2.1 2.1A31.7 31.7 0 0 0 0 12a31.7 31.7 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.7 31.7 0 0 0 24 12a31.7 31.7 0 0 0-.5-4.8zM9.6 15.5v-7l6 3.5-6 3.5z"/></svg></a>
-          <a class="social-icon"  href="https://www.strava.com/athletes/herwindra" aria-label="Strava" target="_blank" rel="noopener noreferrer"><span class="sr-only">Strava</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.4 2 4.8 12.7h3.3l2.3-4.5 2.2 4.5h3.3L10.4 2zm5.5 10.7-2.7 5.3h3.1l2.7-5.3h-3.1z"/></svg></a>
-          <a class="social-icon"  href="https://t.me/herwindra" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><span class="sr-only">Telegram</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 3.7 2.9 11.1c-1.3.5-1.3 1.3-.2 1.6l4.9 1.5 1.9 6.1c.2.6.1.9.8.9.5 0 .8-.2 1.1-.5l2.4-2.3 4.9 3.6c.9.5 1.6.2 1.8-.9L23.7 5c.3-1.3-.5-1.8-1.7-1.3zm-3 3.6-8.7 7.9-.3 3.1-1.3-4.3 10.3-6.7c.5-.3.9.1.4.5z"/></svg></a>
+              <a href="https://www.linkedin.com/in/herwindra" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0-.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.9-2.1 3.9-2.1 4.2 0 5 2.8 5 6.4V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8V21H9z"/></svg></a>
+              <a href="https://github.com/herwinz" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1 .1 1.6 1.1 1.6 1.1 1 .1 2.5.7 3.1-.2.1-.7.4-1.1.7-1.4-2.6-.3-5.4-1.3-5.4-6 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.5.1-3 0 0 1-.3 3.3 1.2A11.4 11.4 0 0 1 12 6.8c1 0 2 .1 3 .4 2.3-1.5 3.3-1.2 3.3-1.2.6 1.5.2 2.7.1 3 .8.9 1.2 2 1.2 3.3 0 4.8-2.9 5.7-5.6 6 .4.3.8 1 .8 2v3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg></a>
+              <a href="https://orcid.org/0009-0002-8403-5456" aria-label="ORCID" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-6.6 5.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM4.5 11h1.8v6.1H4.5V11zm3.3 0h4.8c2.3 0 3.7 1.5 3.7 3.1 0 1.8-1.3 3.1-3.6 3.1H7.8V11zm1.8 1.5v3.1h2.7c1.4 0 2.1-.7 2.1-1.6 0-.8-.7-1.5-2.1-1.5H9.6z"/></svg></a>
+              <a href="https://www.instagram.com/herwindrab/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-2.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+              <a href="https://wa.me/6281939115544?text=Hello" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3.9A11 11 0 0 0 3.2 18.2L2 22l3.9-1.2A11 11 0 1 0 20 3.9zM12 20a8.9 8.9 0 0 1-4.5-1.2l-.3-.2-2.3.7.7-2.2-.2-.4A9 9 0 1 1 12 20zm4.9-6.7c-.3-.2-1.6-.8-1.9-.9-.3-.1-.4-.2-.6.2s-.7.9-.8 1.1c-.2.2-.3.2-.6.1a7.4 7.4 0 0 1-2.2-1.4 8.2 8.2 0 0 1-1.5-1.9c-.2-.3 0-.4.1-.6l.4-.5.2-.4c.1-.1.1-.3 0-.5 0-.2-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.8.4c-.3.3-1 1-1 2.3s1 2.5 1.1 2.7c.2.2 2 3.1 4.9 4.3 2.9 1.2 2.9.8 3.4.7.5 0 1.6-.7 1.8-1.3.2-.6.2-1.2.1-1.3-.1-.1-.3-.2-.6-.4z"/></svg></a>
+              <a href="https://www.youtube.com/c/MuhammadHerwindraBerlian" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 7.2a3 3 0 0 0-2.1-2.1C19.5 4.5 12 4.5 12 4.5s-7.5 0-9.4.6a3 3 0 0 0-2.1 2.1A31.7 31.7 0 0 0 0 12a31.7 31.7 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.7 31.7 0 0 0 24 12a31.7 31.7 0 0 0-.5-4.8zM9.6 15.5v-7l6 3.5-6 3.5z"/></svg></a>
+              <a href="https://www.strava.com/athletes/herwindra" aria-label="Strava" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.4 2 4.8 12.7h3.3l2.3-4.5 2.2 4.5h3.3L10.4 2zm5.5 10.7-2.7 5.3h3.1l2.7-5.3h-3.1z"/></svg></a>
+              <a href="https://t.me/herwindra" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 3.7 2.9 11.1c-1.3.5-1.3 1.3-.2 1.6l4.9 1.5 1.9 6.1c.2.6.1.9.8.9.5 0 .8-.2 1.1-.5l2.4-2.3 4.9 3.6c.9.5 1.6.2 1.8-.9L23.7 5c.3-1.3-.5-1.8-1.7-1.3zm-3 3.6-8.7 7.9-.3 3.1-1.3-4.3 10.3-6.7c.5-.3.9.1.4.5z"/></svg></a>
+            </div>
+          </div>
+          <div>
+            <h2>Navigate</h2>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/cv/">CV</a></li>
+              <li><a href="/projects/">Projects</a></li>
+              <li><a href="/certifications/">Certifications</a></li>
+              <li><a href="/publications/">Publications</a></li>
+              <li><a href="/awards/">Awards</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>Contact</h2>
+            <ul>
+              <li><a href="mailto:berlianherwindra@gmail.com">berlianherwindra@gmail.com</a></li>
+              <li><a href="https://cncf.herwin.my.id/" target="_blank" rel="noopener noreferrer">cncf.herwin.my.id</a></li>
+              <li><a href="https://maps.app.goo.gl/Y188Xkn191zhQjT9A" target="_blank" rel="noopener noreferrer">Yogyakarta, Indonesia</a></li>
+            </ul>
+          </div>
         </div>
-          </div>
-          <div class="footer-right">
-            <p class="footer-right-note">Cloud • DevOps • Platform Engineering</p>
-            <p class="footer-quicklinks"><a href="/">Home</a>  -  <a href="/cv/">CV</a>  -  <a href="/projects/">Projects</a>  -  <a href="/certifications/">Certifications</a>  -  <a href="/publications/">Publications</a>  -  <a href="/awards/">Awards</a></p>
-            <p class="footer-copy">© 2026 - Powered by Herwindra</p>
-          </div>
+        <div class="footer-bottom">
+          <span>© <span id="year">2026</span> Herwindra Berlian</span>
+          <span>Built static · No tracking · Fast by default</span>
         </div>
       </div>
     </footer>
     <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 14l6-6 6 6"/></svg></button>
-  <script>
-    (function () {
-      const btn = document.getElementById("backToTop");
-      if (!btn) return;
-      const toggle = () => {
-        if (window.scrollY > 240) btn.classList.add("show");
-        else btn.classList.remove("show");
-      };
-      window.addEventListener("scroll", toggle, { passive: true });
-      toggle();
-      btn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
-    })();
-  </script>
-</body>
+  </body>
 </html>
